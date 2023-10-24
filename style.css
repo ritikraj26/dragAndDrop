@@ -1,20 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
-  
-  h1 {
-    color: #333;
-  }
-  
-  #drop-zone {
-    border: 2px dashed #ccc;
-    padding: 20px;
-    margin: 20px auto;
-    width: 80%;
-  }
-  
-  #drop-zone p {
-    margin: 0;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.drag-drop {
+  background-color: #fff;
+  border: 2px dashed #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.drop-area {
+  border: 2px dashed #777;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+}

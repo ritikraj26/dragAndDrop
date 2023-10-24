@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Drag and Drop Items</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Drag and Drop App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1>Drag and Drop Items</h1>
-  <div id="drop-zone">
-    <p>Drag and drop items here</p>
-  </div>
-  <button id="save-button">Save as Text</button>
-  <script src="script.js"></script>
+    <div class="container">
+        <h1>Drag and Drop App</h1>
+        <div class="drag-drop">
+            <div class="drop-area">
+                <p>Drag and drop your files here</p>
+            </div>
+            <form id="upload-form">
+                <textarea name="combinationData" placeholder="Enter combination data"></textarea>
+                <input type="file" name="file" style="display: none;">
+                <button type="submit">Save Combination</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
